@@ -1,3 +1,3 @@
 class httpd {
-  include httpd::install, httpd::config, httpd::service
+  include httpd::params, httpd::install, httpd::config, httpd::service
 }
